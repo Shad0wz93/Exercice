@@ -1,0 +1,78 @@
+/* TodoList.css */
+
+.todo-list-container {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .todo-list-container .container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .todo-list-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .todo-list-container .input-container {
+    display: flex;
+  }
+  
+  .todo-list-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo-list-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .todo-list-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list-container li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-list-container li:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-list-container .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .todo-list-container input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-list-container button.delete-button {
+    background-color: #f44336;
+  }
+  
